@@ -17,4 +17,9 @@ public class Employee {
     @Column
     private long salary;
 
+    public Employee(String employeeName, String department, long salary) {
+        this.employeeName = employeeName;
+        this.department = department;
+        this.salary = salary;
+    }
 }
